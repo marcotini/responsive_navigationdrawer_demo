@@ -57,8 +57,8 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
               padding: EdgeInsets.zero,
               children: [
                 const UserAccountsDrawerHeader(
-                  accountName: Text('User'),
-                  accountEmail: Text('user@email.com'),
+                  accountName: Text('Google'),
+                  accountEmail: Text('google.com'),
                   currentAccountPicture: CircleAvatar(
                     child: Icon(Icons.android),
                   ),
